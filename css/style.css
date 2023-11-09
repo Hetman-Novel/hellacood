@@ -2268,6 +2268,10 @@ body {
   padding-bottom: 62px;
 }
 
+.single .page__content {
+  padding-top: 0;
+}
+
 .page__tabs {
   border-bottom: 1px solid #EDEEEE;
   display: flex;
