@@ -3334,8 +3334,8 @@ svg.contact {
   .header .menu-topmenu-container {
     box-sizing: border-box;
     display: flex;
-    height: calc(100dvh - 120px);
-    margin-top: 120px;
+    height: calc(100dvh - 90px);
+    margin-top: 90px;
     padding-bottom: 70px;
     padding-left: 33px;
     padding-right: 33px;
@@ -3427,19 +3427,26 @@ svg.contact {
 
 @media screen and (max-width: 1099.98px) and (max-width: 1024.98px) {
   .header .menu-topmenu-container {
-    height: calc(100dvh - 90px);
-    margin-top: 90px;
     padding-left: 18px;
     padding-right: 18px;
   }
 }
 
-@media screen and (max-width: 1099.98px) and (max-width: 800.98px) {
+@media screen and (max-width: 1099.98px) and (max-width: 767.98px) {
   .header .menu-topmenu-container {
     height: calc(100dvh - 80px);
     margin-top: 80px;
   }
+}
 
+@media screen and (max-width: 1099.98px) and (max-width: 575.98px) {
+  .header .menu-topmenu-container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
+@media screen and (max-width: 1099.98px) and (max-width: 800.98px) {
   .header .menu__list > li:not(:last-child) {
     margin-bottom: 40px;
   }
@@ -3460,13 +3467,6 @@ svg.contact {
 
   .header .menu__arrow {
     top: 6px;
-  }
-}
-
-@media screen and (max-width: 1099.98px) and (max-width: 575.98px) {
-  .header .menu-topmenu-container {
-    padding-left: 14px;
-    padding-right: 14px;
   }
 }
 
@@ -3529,6 +3529,10 @@ svg.contact {
     height: 4px;
     top: 10px;
   }
+
+  .blog__head {
+    padding-top: 100px;
+  }
 }
 
 @media screen and (max-width: 991.98px) {
@@ -3556,10 +3560,6 @@ svg.contact {
 @media screen and (max-width: 800.98px) {
   .page__title {
     font-size: 48px;
-  }
-
-  .blog__head {
-    padding-top: 40px;
   }
 
   .blog__head h1,
@@ -3609,6 +3609,10 @@ svg.contact {
 }
 
 @media screen and (max-width: 767.98px) {
+  .page__head {
+    padding-top: 65px;
+  }
+
   .header-container {
     height: 50px;
   }
@@ -3643,6 +3647,10 @@ svg.contact {
   #burger span:after {
     height: 3px;
     top: 8px;
+  }
+
+  .blog__head {
+    padding-top: 70px;
   }
 
   .blog__head p {
@@ -3747,10 +3755,6 @@ svg.contact {
     padding-left: 0;
     padding-right: 0;
     width: 100%;
-  }
-
-  .blog__head {
-    padding-top: 30px;
   }
 
   .blog__head h1,
