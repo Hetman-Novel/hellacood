@@ -2904,6 +2904,10 @@ svg.contact {
     width: 100%;
   }
 
+  .menu__sub-menu-items.four-column .menu__sub-menu-item {
+    width: calc(25% - 24px);
+  }
+
   .menu__sub-menu-item {
     margin-left: 12px;
     margin-right: 12px;
